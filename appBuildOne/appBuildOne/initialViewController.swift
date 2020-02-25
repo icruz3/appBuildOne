@@ -1,31 +1,17 @@
 //
-//  secondViewController.swift
+//  initialViewController.swift
 //  appBuildOne
 //
-//  Created by Isaac Cruz on 2/24/20.
+//  Created by Isaac Cruz on 2/25/20.
 //  Copyright © 2020 Isaac Cruz. All rights reserved.
 //
 
 import UIKit
 
-class secondViewController: UIViewController {
-    var firstString = 10
-    var secondString = 20
-    var thirdString = 30
-    
-    @IBAction func calculateButtonPressed(_ sender: Any) {
-        
-    }
-        
-    }
-    
-    
-    
-    
+class initialViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
 
         // Do any additional setup after loading the view.
     }
