@@ -10,8 +10,12 @@ import UIKit
 
 class secondViewController: UIViewController {
      var firstString = 10
-     var secondString = 20
+     var secondString = "the background will turn green"
      
+    @IBAction func pressMeButtonPressedGreen(_ sender: Any)
+    {
+        self.view.backgroundColor = UIColor.green
+    }
     
     @IBOutlet weak var theAnswerIsLabel: UILabel!
     override func viewDidLoad() {
