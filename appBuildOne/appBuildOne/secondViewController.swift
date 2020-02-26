@@ -19,22 +19,17 @@ class secondViewController: UIViewController {
 }
     var backgroundString = "the background will turn green"
         // Do any additional setup after loading the view.
-    @IBAction func calculateButtonPressed(_ sender: Any)
+    @IBAction func calculateButtonPressed(_sender: Any)
     {
         if firstString == 10
     {
-    else
+ 
     }
-        self.view.secondString == "20"
+
     }
-     
     
-    if self.backgroundString == "the background will turn green"
-    {
-    self.view.backgroundColor = UIColor.green
-    self.backgroundString.text = "green"
+   
     }
-}
 
 
 
